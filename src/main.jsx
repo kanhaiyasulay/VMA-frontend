@@ -15,3 +15,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </Auth0Provider>
 );
+
+
+Domain : dev-e1ewmhkuznon2jzs.us.auth0.com
+
+Client ID : yWUal1uWRHW7zrDMf5blXqYRhwCUc6fa
