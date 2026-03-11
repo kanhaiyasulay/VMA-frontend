@@ -5,6 +5,8 @@ import Dashboard from "./pages/Dashboard";
 import TalkCustomer from "./pages/TalkCustomer";
 import DealClinic from "./pages/DealClinic";
 import Performance from "./pages/Performance";
+import CustomerReport from "./pages/CustomerReport";
+import DealReport from "./pages/DealReport";
 
 import ProtectedRoute from "./auth/ProtectedRoute";
 
@@ -47,6 +49,24 @@ function App() {
           element={
             <ProtectedRoute>
               <Performance />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/customer-report"
+          element={
+            <ProtectedRoute>
+              <CustomerReport />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/deal-report"
+          element={
+            <ProtectedRoute>
+              <DealReport />
             </ProtectedRoute>
           }
         />
