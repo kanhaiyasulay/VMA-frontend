@@ -7,6 +7,8 @@ import DealClinic from "./pages/DealClinic";
 import Performance from "./pages/Performance";
 import CustomerReport from "./pages/CustomerReport";
 import DealReport from "./pages/DealReport";
+import CustomerSessionReport from "./pages/CustomerSessionReport";
+import DealClinicSessionReport from "./pages/DealClinicSessionReport";
 
 import ProtectedRoute from "./auth/ProtectedRoute";
 
@@ -71,6 +73,22 @@ function App() {
           }
         />
 
+        <Route
+          path="/customer-session-report"
+          element={
+            <ProtectedRoute>
+              <CustomerSessionReport />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/deal-session-report"
+          element={<ProtectedRoute>
+            <DealClinicSessionReport />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
