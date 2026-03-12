@@ -15,18 +15,18 @@ export default function DealClinicSessionReport() {
       <div className="grid grid-cols-3 gap-6">
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold">Strength</h2>
-          <p>{report?.strength}</p>
+          <h2 className="font-semibold text-black">Strength</h2>
+          <p className="text-black">{report?.strength}</p>
         </div>
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold">Weakness</h2>
-          <p>{report?.weakness}</p>
+          <h2 className="font-semibold text-black">Weakness</h2>
+          <p className="text-black">{report?.weakness}</p>
         </div>
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold">Rating</h2>
-          <p>{report?.rating}/10</p>
+          <h2 className="font-semibold text-black">Rating</h2>
+          <p className="text-black">{report?.rating}/10</p>
         </div>
 
       </div>

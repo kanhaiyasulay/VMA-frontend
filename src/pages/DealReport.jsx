@@ -28,18 +28,18 @@ export default function DealReport() {
       <div className="grid grid-cols-3 gap-6 mb-10">
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold mb-2">Strength</h2>
-          <p>Good negotiation strategy</p>
+          <h2 className="font-semibold mb-2 text-black">Strength</h2>
+          <p className="text-black">Good negotiation strategy</p>
         </div>
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold mb-2">Weakness</h2>
-          <p>Needs better closing technique</p>
+          <h2 className="font-semibold mb-2 text-black">Weakness</h2>
+          <p className="text-black">Needs better closing technique</p>
         </div>
 
         <div className="bg-white shadow p-6 rounded-lg">
-          <h2 className="font-semibold mb-2">Rating</h2>
-          <p>8 / 10</p>
+          <h2 className="font-semibold mb-2 text-black">Rating</h2>
+          <p className="text-black">8 / 10</p>
         </div>
 
       </div>

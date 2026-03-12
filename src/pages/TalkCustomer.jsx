@@ -40,7 +40,7 @@ export default function TalkCustomer() {
         <select
           value={language}
           onChange={(e) => setLanguage(e.target.value)}
-          className="w-full p-3 border rounded-lg"
+          className="w-full p-3 border rounded-lg text-black"
         >
           <option>English</option>
           <option>Hindi</option>
@@ -67,7 +67,7 @@ export default function TalkCustomer() {
 
       {/* Avatar */}
 
-      <div className="w-40 h-40 bg-gray-300 rounded-full flex items-center justify-center mb-10">
+      <div className="w-40 h-40 bg-gray-300 rounded-full flex items-center justify-center mb-10 text-black">
         Avatar
       </div>
 
